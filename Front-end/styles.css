@@ -1,0 +1,67 @@
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn {
+    background-color: rgb(111, 111, 211);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: white;
+}
+
+footer {
+    text-align: center;
+}
+
+main{
+    height: 90vh;
+    background-color: rgb(169, 224, 239);
+}
+footer {
+    background-color: rgb(169, 224, 239);
+    padding-bottom: 20px;
+}
+.memberships {
+    display: flex;
+}
+.membership-management {
+    display: block
+}
+
+input, label, textarea {
+    display:block;
+    margin-top: 25px;
+
+}
+input, textarea {
+    width: 70%;
+}
+
+form {
+    margin: auto;
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    align-content: center;
+}
+
+form div {
+display: flex;
+flex-direction: row;
+gap: 20px;
+justify-content: flex-end;
+}
+
+
+
